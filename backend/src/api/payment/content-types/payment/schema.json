@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paymentName": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "product_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
